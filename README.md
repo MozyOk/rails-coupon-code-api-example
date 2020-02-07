@@ -1,24 +1,14 @@
-# README
+# rails coupon code api
+using https://github.com/baxang/coupon-code  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# how to use
+- rails db:create
+- rails db:migrate  
+- rails s  
 
-Things you may want to cover:
+`curl http://localhost:3000/users`  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+response example)   
+```
+{"code":"H6FC-KLAB-99NR","status":"ok"}
+```
